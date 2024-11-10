@@ -3,7 +3,7 @@ employee table (empno, empname, department, salary) based on empno and
 display records."""
 import mysql.connector as sql
 
-conn=sql.connect(host="localhost",user="root",password="jeet",database="employee")
+conn=sql.connect(host="localhost",user="root",password="",database="employee")
 def create():
     cursor.execute("""create table if not exists employee(
                     empno INT PRIMARY KEY,
