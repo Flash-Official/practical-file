@@ -4,7 +4,7 @@ display records"""
 
 import mysql.connector as sql
 
-conn=sql.connect(host="localhost",user="root",password="jeet",database="employee")
+conn=sql.connect(host="localhost",user="root",password="",database="employee")
 cursor=conn.cursor()
 def create():
     try:
